@@ -2,7 +2,7 @@
 title: Not Pure Poole
 description: A simple, beautiful, and powerful Jekyll theme for blogs
 url: https://vszhub.github.io
-avatar: /856886067.jpg
+avatar: /1926817577.jpg
 paginate: 5
 permalink: pretty
 cover_image: /146367700.jpg
@@ -33,12 +33,12 @@ twitter:
   card: summary
 logo: logo.png
 social:
-  name: Songzi Vong
+  name: Jinming Xu
   links:
     - https://twitter.com/vszhub
-    - https://github.com/vszhub
+    - https://github.com/ytxjm/
 google_site_verification: xxxxx
-lang: en
+lang: ch
 
 sass:
   sass_dir: _sass
@@ -54,6 +54,6 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Songzi Vong
-  url: https://github.com/vszhub/
-  email: vszhub@gmail.com
+  name: Jinming XU
+  url: https://github.com/ytxjm/
+  email: shdxujinming@163.com
