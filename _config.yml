@@ -1,8 +1,8 @@
 # Setup
-title: 哥，开始？！
-description: A simple, beautiful, and powerful Jekyll theme for blogs
+title: 牧～，过来爸爸抱
+description: 不行，不行，不行！
 url: https://vszhub.github.io
-avatar: /1926817577.jpg
+avatar: /mu.png
 paginate: 5
 permalink: pretty
 cover_image: /146367700.jpg
@@ -36,7 +36,7 @@ social:
   name: Jinming Xu
   links:
     - https://twitter.com/vszhub
-    - https://github.com/ytxjm/
+    - https://gitee.com/xianxjm/xianxjm
 google_site_verification: xxxxx
 lang: ch
 
@@ -54,6 +54,6 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Jinming XU
-  url: https://github.com/ytxjm/
+  name: Jinming Xu
+  url: https://gitee.com/xianxjm/xianxjm
   email: shdxujinming@163.com
