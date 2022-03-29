@@ -10,16 +10,17 @@ date: 2022-03-28 15:32 +0800
 
 #### 1.编译要调试的可执行程序
 
-a.bazel中要加--compilation_mode=dbg -s
-	```shell
-   bazel build common/tools/simulation:simulation_main --compilation_mode=dbg -s
-   ```
+a. bazel中要加--compilation_mode=dbg -s
 
- b.cmake中要加--DCMAKE_BUILD_TYPE=Debug
+```shell
+bazel build common/tools/simulation:simulation_main --compilation_mode=dbg -s
+```
 
-    ```shell
-    cmake --DCMAKE_BUILD_TYPE=Debug ..
-    ```
+b. cmake中要加--DCMAKE_BUILD_TYPE=Debug
+
+```shell
+cmake --DCMAKE_BUILD_TYPE=Debug ..
+```
 
 
 #### 3.启动docker container(没有的跳过)，打开vscode，打开相应的工程文件夹
@@ -86,10 +87,10 @@ program：为可执行程序
 args：为执行的输入参数
 
 cwd：为执行的工作目录
-
-
 ```
-**一些调试快捷键：**
+
+
+一些调试快捷键：
 ```
 Continue / Pause: F5 （继续执行直到下一次运行断点）
 Step Over: F10 （跳过此行）
@@ -97,7 +98,6 @@ Step Into: F11 （进入函数）
 Step Out: Shift+F11 （跳出函数）
 Restart: Ctrl+Shift+F5
 Stop: Shift+F5
-
 ```
 
 
@@ -109,8 +109,10 @@ https://github.com/ytxjm/HelloWorld
 
 
 参考：
-
 https://stackoverflow.com/questions/66057404/launch-program-does-not-exist-in-visual-studio-code
+
+
+
 
 
 
